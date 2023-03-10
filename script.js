@@ -206,7 +206,7 @@ function upadetCart(){
             var subpedido = 'Boa Noite! Gostaria de:\n'+ pedido;   
             console.log(subpedido) 
 
-            var link = "https://wa.me/945894011?text=" + encodeURIComponent(subpedido);
+            var link = "https://wa.me/5511945894011?text=" + encodeURIComponent(subpedido);
             window.open(link);
     
     })
