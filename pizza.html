@@ -59,7 +59,7 @@
     </aside>
     <div class="pizzaWindowArea">
         <div class="pizzaWindowBody">
-            <div class="pizzaInfo--cancelMobileButton">Voltar</div>
+            <div class="pizzaInfo--cancelMobileButton" onclick="closeAreaPizza()">Voltar</div>
             <div class="pizzaBig">
                 <img src="" />
             </div>
@@ -79,14 +79,14 @@
                     <div class="pizzaInfo--price">
                         <div class="pizzaInfo--actualPrice">R$ --</div>
                         <div class="pizzaInfo--qtarea">
-                            <button class="pizzaInfo--qtmenos">-</button>
+                            <button class="pizzaInfo--qtmenos" onclick="removePizza()">-</button>
                             <div class="pizzaInfo--qt">1</div>
-                            <button class="pizzaInfo--qtmais">+</button>
+                            <button class="pizzaInfo--qtmais" onclick="addPizza()"  >+</button>
                         </div>
                     </div>
                 </div>
-                <div class="pizzaInfo--addButton">Adicionar ao carrinho</div>
-                <div class="pizzaInfo--cancelButton">Cancelar</div>
+                <div class="pizzaInfo--addButton" onclick="addCarrinho()">Adicionar ao carrinho</div>
+                <div class="pizzaInfo--cancelButton" onclick="closeAreaPizza()">Cancelar</div>
             </div>
         </div>
     </div>
